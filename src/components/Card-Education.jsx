@@ -8,9 +8,9 @@ export function Formation ({ img, alt, curso, nivel, instituicao, tempo }) {
             </div>
             <div className='flex flex-col gap-2 pl-2'>
                 <h3 className='text-2xl font-medium capitalize'>{curso}</h3>
-                <p className='text-xl text-zinc-200 capitalize'>{nivel}</p>
-                <p className='text-xl text-zinc-200 capitalize'>{instituicao}</p>
-                <p className='text-15px bottom-6 right-6 absolute text-zinc-500'>{tempo}</p>
+                <p className='text-xl text-zinc-200 capitalize font-medium'>{nivel}</p>
+                <p className='text-xl text-zinc-200 capitalize font-medium'>{instituicao}</p>
+                <p className='bottom-6 right-6 absolute text-[12] text-zinc-500 uppercase font-semibold'>{tempo}</p>
                 <PiBookmarkSimple className='text-[15px] top-6 right-6 absolute text-zinc-500'/>
             </div>
         </div>

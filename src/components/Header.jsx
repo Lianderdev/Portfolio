@@ -9,7 +9,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 export function Header() {
     const [visible, setVisible] = useState(false);
-    const [isMobile, setIsMobile] = useState(false); // Estado para verificar se é mobile
+    const [isMobile, setIsMobile] = useState(false); 
 
     const handle = () => {
         if (isMobile) {
@@ -38,7 +38,7 @@ export function Header() {
                     </div>
 
                     <nav>
-                        <ul className={`absolute top-0 h-[100vh] w-[300px] p-8 flex flex-col md:gap-4 z-30 duration-150 transition-all 
+                        <ul className={`absolute top-0 h-[100vh] w-[300px] p-8 flex flex-col gap-2 md:gap-4 z-30 duration-150 transition-all 
                         border-r 
                         ${visible ? 'left-0 bg-zinc-950' : '-left-[302px]'} 
                         md:relative md:p-0 md:h-auto md:top-0 md:w-auto md:flex-row md:items-center md:left-0 md:border-none
@@ -57,8 +57,8 @@ export function Header() {
                             <li><a onClick={handle} className='link' href="#contact">Contatos</a></li>
 
                             <div className='md:hidden flex flex-col gap-4'>
-                                <h3 className='md:hidden text-2xl font-normal mt-6 text-zinc-50'>Redes Sociais</h3>
-                                <ul className='-mt-2'>
+                                <h3 className='md:hidden text-2xl font-normal mt-6 mb-2 text-zinc-50'>Redes Sociais</h3>
+                                <ul className='-mt-2 flex flex-col gap-2 '>
                                     <li className='link'>
                                         <a target='_blank' className='flex justify-between items-center' href="https://github.com/Lianderdev">
                                             Github <MdArrowOutward />

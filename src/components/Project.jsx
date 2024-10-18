@@ -12,9 +12,9 @@ export function Project({ title, link, img, tools, github }) {
                 </a>
 
                 <div className="flex justify-between items-center mt-4">
-                    <h2 className="text-[1.7rem] capitalize ">{title}</h2>
-                    <a href={github} target="_blank">
-                        <Button variant='secondary' className='flex items-center gap-2 h-14 text-xl font-normal'><FiGithub /> Github </Button>
+                    <h3 className="text-[1.7rem] capitalize ">{title}</h3>
+                    <a href={github} target="_blank" className="flex items-center gap-2 text-xl text-zinc-500 uppercase font-semibold hover:text-zinc-400 transition-colors duration-100">
+                       <FiGithub /> Github 
                     </a>
                 </div>
 
