@@ -15,7 +15,7 @@ export function Home() {
                 <img className="object-fill w-full" src={avatar} alt="" />
             </div> */}
 
-            <h1 className='scroll-m-20 text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:mt-6 font-extrabold tracking-tight'>I'm liander vinícius and Work as a front-end developer 👋🏻</h1>
+            <h1 className='scroll-m-20 text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:mt-6 font-extrabold tracking-tight'>Olá ! Eu sou liander vinícius & sou desenvolvedor front-end 👋🏻</h1>
 
             <p className="max-w-5xl text-[13px] pl-[2px] text-zinc-300 xs:text-3xl"> Apaixonado por criar interfaces intuitivas e acessíveis, alinhadas às necessidades dos usuários e aos objetivos da empresa.</p>
 
