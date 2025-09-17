@@ -8,14 +8,14 @@ export function Skills() {
         { id: 2, name: "JavaScript" },
         { id: 3, name: "TailwindCSS" },
         { id: 4, name: "Node.js" },
-        { id: 1, name: "React" },
-        { id: 2, name: "JavaScript" },
-        { id: 3, name: "TailwindCSS" },
-        { id: 4, name: "Node.js" },
-        { id: 1, name: "React" },
-        { id: 2, name: "JavaScript" },
-        { id: 3, name: "TailwindCSS" },
-        { id: 4, name: "Node.js" },
+        { id: 5, name: "Vscode" },
+        { id: 6, name: "Figma" },
+        { id: 7, name: "MySQL" },
+        { id: 8, name: "Java" },
+        { id: 9, name: "Webpack" },
+        { id: 10, name: "Express" },
+        { id: 11, name: "Git" },
+        { id: 12, name: "GitHub" },
     ];
 
     return (

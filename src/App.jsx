@@ -2,6 +2,7 @@ import { Header } from "./components/header";
 import { About } from "./sections/about";
 import { Experiences } from "./sections/experiences";
 import { Formations } from "./sections/formations";
+import { Projects } from "./sections/projects";
 import { Skills } from "./sections/skills";
 
 export function App() {
@@ -13,6 +14,7 @@ export function App() {
         <Skills />
         <Experiences />
         <Formations />
+        <Projects />
       </div>
     </div>
   )

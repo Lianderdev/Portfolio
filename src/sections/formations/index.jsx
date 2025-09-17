@@ -1,5 +1,4 @@
 import { FormationItem } from "../../components/formationItem"
-import atomic from "../../assets/atomic.png"
 import ifpa from '../../assets/ifpa.png'
 import senai from  '../../assets/senai.png'
 
@@ -10,7 +9,7 @@ export function Formations() {
             <ul className="flex flex-col gap-4">
                 <FormationItem logo={ifpa} title={'IFPA - Campus Ananindeua'} role={'Ciência da Computação'} period={'2022 - 2025'} />
                 <FormationItem logo={ifpa} title={'IFPA - Campus Ananindeua'} role={'Tecnico em Informática'} period={'2019 - 2022'} />
-                <FormationItem logo={senai} title={'SENAI - Serviço Nacional de Aprendizagem Industrial'} role={'Tecnico em Redes'} period={'2017 - 2019'} />
+                <FormationItem logo={senai} title={'SENAI'} role={'Tecnico em Redes'} period={'2017 - 2019'} />
             </ul>
         </section>
     )

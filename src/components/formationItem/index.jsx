@@ -8,11 +8,11 @@ export function FormationItem({ logo, title, role, period }) {
                 </div>
 
                 <div>
-                    <h3 className="text-sm font-bold">{title}</h3>
-                    <p className="text-xs font-medium">{role}</p>
+                    <h3 className="text-xs md:text-sm font-bold">{title}</h3>
+                    <p className="text-xs md:text-xs font-medium">{role}</p>
                 </div>
             </div>
-            <p className="text-sm font-medium text-zinc-400">{period}</p>
+            <p className="text-xs md:text-sm font-medium text-zinc-400">{period}</p>
         </li>
     );
 }

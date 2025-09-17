@@ -11,7 +11,7 @@ export function ExperienceItem({ logo, title, role, period }) {
           <p className="text-xs font-medium">{role}</p>
         </div>
       </div>
-      <p className="text-sm font-medium text-zinc-400">{period}</p>
+      <p className="text-xs md:text-sm font-medium text-zinc-400">{period}</p>
     </li>
   );
 }
