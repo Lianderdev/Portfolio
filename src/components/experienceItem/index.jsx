@@ -3,7 +3,7 @@ export function ExperienceItem({ logo, title, role, period }) {
   return (
     <li className="flex justify-between">
       <div className="flex gap-4">
-        <div className="w-12">
+        <div className="w-12 rounded-full overflow-hidden">
           <img src={logo} alt={title} />
         </div>
         <div>

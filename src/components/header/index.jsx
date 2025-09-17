@@ -5,7 +5,7 @@ export function Header() {
     return (
         <header className="flex justify-between items-center">
             <div className="w-[70%]">
-                <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Olá! Eu sou Sufist 👋</h1>
+                <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Olá! Eu sou Elp 👋</h1>
                 <p className="text-base md:text-2xl text-zinc-100 mt-3">
                     Desenvolvedor Fullstack. Apaixonado por criar e resolver problemas.
                 </p>

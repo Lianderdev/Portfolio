@@ -23,10 +23,10 @@ export function Projects() {
     return (
         <section className="mt-16 pb-24 flex flex-col items-center">
             <h2 className="text-sm font-normal text-zinc-950 bg-zinc-100 px-3 py-[2px] rounded-md inline-block">Meus Projetos</h2>
-            <h3 className="text-4xl font-bold tracking-tight mt-2">Confira meus últimos trabalhos</h3>
+            <h3 className="text-center text-2xl md:text-4xl font-bold tracking-tight mt-2">Confira meus últimos trabalhos</h3>
             <p className="text-center mb-6 mt-3">Trabalhei em uma variedade de projetos, desde sites simples até aplicativos web complexos. Aqui estão alguns dos meus favoritos.</p>
           
-            <ul className="flex gap-4">
+            <ul className="flex flex-col md:flex-row gap-8">
                 {projects.map((project) => (
                     <li
                         key={project.id}

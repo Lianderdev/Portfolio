@@ -16,6 +16,7 @@ export function Skills() {
         { id: 10, name: "Express" },
         { id: 11, name: "Git" },
         { id: 12, name: "GitHub" },
+        { id: 13, name: "AWS" },
     ];
 
     return (
