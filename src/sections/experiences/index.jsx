@@ -8,8 +8,8 @@ export function Experiences() {
         <section className="mt-12">
             <h2 className="md:text-2xl text-white font-bold mb-3">Experiencias</h2>
             <ul className="flex flex-col gap-4">
-                <ExperienceItem logo={inclusive} title={'InclusiTech'} role={'Software educativo - apps de acessibilidade'} period={'Mai 2021 - Out 2022'}/>
-                <ExperienceItem logo={empathy} title={'Empathy AI'} role={'IA inclusiva _ algoritmos livres de vieses'} period={'Mai 2023 - Out 2025'}/>
+                <ExperienceItem logo={inclusive} title={'InclusiTech'} role={'Software educativo - apps de acessibilidade'} />
+                <ExperienceItem logo={empathy} title={'Empathy AI'} role={'IA inclusiva _ algoritmos livres de vieses'} />
             </ul>
         </section>
     )
