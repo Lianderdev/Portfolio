@@ -1,5 +1,4 @@
-import perfil from "../../assets/sufist.jpeg"
-import demolidor from "../../assets/demolidor.jpeg"
+import person from "../../assets/person.jpg"
 
 export function Header() {
     return (
@@ -12,8 +11,8 @@ export function Header() {
             </div>
             <div className="w-24 h-24 md:w-28 md:h-28 bg-white rounded-full overflow-hidden object-cover">
                 <img
-                    className="w-full h-full object-cover"
-                    src={demolidor}
+                    className="w-full h-full object-contain"
+                    src={person}
                     alt="Foto de perfil"
                 />
             </div>

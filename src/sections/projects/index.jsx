@@ -1,4 +1,5 @@
 import techsigns from '../../assets/techsigns.png'
+import sismorcego from '../../assets/sismorcego.jpg'
 
 
 export function Projects() {
@@ -13,10 +14,10 @@ export function Projects() {
         },
         {
             id: 2,
-            img: techsigns,
-            name: "Techsigns: Software educativo adaptado a libras para o ensino de informática",
-            about: "Aplicação web educativa que utiliza tradução automática em Libras (via VLibras) para auxiliar pessoas surdas no aprendizado de informática básica. O foco é a inclusão digital e a acessibilidade na educação.",
-            tools: ["React", "TailwindCSS", "VLibras", "FastAPI", "Docker"]
+            img: sismorcego,
+            name: "Sismorcego",
+            about: "Sismorcego é um aplicativo PWA que registra mordidas de morcegos em pessoas e animais, mesmo offline. Voltado a comunidades rurais e agentes de saúde, auxilia o SUS na vigilância e prevenção da raiva.",
+            tools: ["React Native", "Firebase", "Styled-components"]
         },
     ];
 
@@ -30,7 +31,7 @@ export function Projects() {
                 {projects.map((project) => (
                     <li
                         key={project.id}
-                        className="border border-zinc-900 rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden"
+                        className="min-w-[300px] border border-zinc-900 rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden"
                     >
                         <div>
                             <img src={project.img} alt="" className='w-full h-52 object-cover object-top' />
