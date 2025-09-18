@@ -17,7 +17,8 @@ export function Skills() {
         { id: 11, name: "Git" },
         { id: 12, name: "GitHub" },
         { id: 13, name: "AWS" },
-        { id: 14, name: "AWS" },
+        { id: 14, name: "React-native" },
+        { id: 14, name: "Firebase" },
     ];
 
     return (
